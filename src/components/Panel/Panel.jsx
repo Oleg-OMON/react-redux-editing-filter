@@ -2,8 +2,7 @@ import React from "react";
 import Form from "../Form/Form";
 import List from "../Sections/List";
 
-const USID = require("usid");
-const usid = new USID();
+const usid = require('usid');
 
 const Panel = () => {
   return (

@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const USID = require("usid");
-const usid = new USID();
+const usid = require('usid');
 
 export const Li = ({ id, className, children }) => {
   return (

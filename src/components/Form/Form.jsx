@@ -9,8 +9,7 @@ import {
 } from "../../actions/actionCreators";
 import { useDispatch, useSelector } from "react-redux";
 
-const USID = require("usid");
-const usid = new USID();
+const usid = require('usid');
 
 const Form = (data) => {
   const tooltipeRef = useRef();
